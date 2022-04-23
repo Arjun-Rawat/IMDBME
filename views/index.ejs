@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%-include('components/header'); %>
+    <title>Task</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <%-include('components/navbar'); %>
+
+      <main>
+        <div class="container">
+          <div class="topmovies mb-40">
+            <h2 class="center mt-40 mb-40 color-gray font-34">Top 10 Movies</h2>
+            <div class="wrapper-movies">
+              <% movies.forEach(movie=>{ %>
+              <div class="movie_tile">
+                <a href="/api/v1/movie/<%=movie._id %> "> <div class="movie-poster" style="background-image: url('/assets/images/<%= Math.floor(Math.random() * 5)    %>.jpg')"></div> </a>
+                <div class="movie-details">
+                  <div class="vote_unvote">
+                    <div class="vote" data-movie-id="<%= movie._id %> ">
+                      <span class="vote-count"><%= movie.upvotes > 0? movie.upvotes:"" %></span><span class="material-symbols-outlined pdl-5me"> thumb_up </span>
+                    </div>
+                    <div class="unvote ml-auto" data-movie-id="<%= movie._id %>">
+                      <span class="vote-count"><%= movie.downvotes>0? movie.downvotes:"" %></span><span class="material-symbols-outlined pdl-5me"> thumb_down </span>
+                    </div>
+                  </div>
+                  <div class="movie-name">Name: <%= movie.name%></div>
+                  <div class="movie-genre">Genre: <%= movie.genre%></div>
+                </div>
+              </div>
+              <% })%>
+            </div>
+          </div>
+        </div>
+      </main>
+      <%-include('components/footer'); %>
+
+      <%-include('components/scripts'); %>
+      
+    </div>
+  </body>
+</html>
