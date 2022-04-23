@@ -1,0 +1,375 @@
+[{
+  "_id": {
+    "$oid": "626380f7582db6ce681518a6"
+  },
+  "name": "Batman",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Sifi",
+  "release_date": {
+    "$date": "2022-04-25T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 17,
+  "downvotes": 3,
+  "image": "batman.jpg",
+  "createdAt": {
+    "$date": "2022-04-23T04:30:47.984Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T12:24:02.071Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626380f8582db6ce681518a8"
+  },
+  "name": "Batman2",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "drama",
+  "release_date": {
+    "$date": "2022-04-26T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 27,
+  "downvotes": 10,
+  "image": "batman.jpg",
+  "createdAt": {
+    "$date": "2022-04-23T04:30:48.114Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T12:23:44.860Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626380f8582db6ce681518a1"
+  },
+  "name": "Batman",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "drama",
+  "release_date": {
+    "$date": "2022-04-25T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 15,
+  "downvotes": 25,
+  "image": "batman.jpg",
+  "createdAt": {
+    "$date": "2022-04-23T04:30:48.114Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T13:07:57.497Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263ce0bf91b4f5bfb6f22b7"
+  },
+  "name": "KFG Chapter 2",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Sifi",
+  "release_date": {
+    "$date": "2022-04-29T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 5,
+  "downvotes": 4,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T09:59:39.073Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T10:55:15.920Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263cec1ab05ae0f5b0ff773"
+  },
+  "name": "KFG Chapter 1",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Sifi",
+  "release_date": {
+    "$date": "2022-04-30T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 0,
+  "downvotes": 5,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:02:41.684Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T10:55:10.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263cecc644e9a65f32c7930"
+  },
+  "name": "Iron Man",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Sifi",
+  "release_date": {
+    "$date": "2022-04-30T00:00:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 6,
+  "downvotes": 4,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:02:52.943Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T10:55:13.235Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263ced7841b3fcd67859f4b"
+  },
+  "name": "Iron Man 2",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Sifi",
+  "release_date": {
+    "$date": "2022-04-30T18:30:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 12,
+  "downvotes": 8,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:03:03.089Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T12:39:53.151Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263cee8f4cdb832c1a74212"
+  },
+  "name": "Lorem",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "drama",
+  "release_date": {
+    "$date": "2022-04-30T18:30:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 4,
+  "downvotes": 7,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:03:20.741Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T10:55:22.601Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263ceff1d2c82dc226a244d"
+  },
+  "name": "Spiderman",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Action",
+  "release_date": {
+    "$date": "2022-05-01T18:30:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 7,
+  "downvotes": 5,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:03:43.359Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T10:55:25.526Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263cf001d2c82dc226a244f"
+  },
+  "name": "Spiderman",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Action",
+  "release_date": {
+    "$date": "2022-05-01T18:30:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 8,
+  "downvotes": 7,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:03:44.260Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T12:58:14.720Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263cf173ae60676c0da408e"
+  },
+  "name": "Spiderman 2",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galle",
+  "genre": "Action",
+  "release_date": {
+    "$date": "2022-05-02T18:30:00Z"
+  },
+  "reviews": [
+    {
+      "title": "this is a fantastic movie",
+      "givenBy": "lorem"
+    },
+    {
+      "title": "fab movie",
+      "givenBy": "ipsm"
+    },
+    {
+      "title": "awsome movie",
+      "givenBy": "lorem ipsm"
+    }
+  ],
+  "upvotes": 14,
+  "downvotes": 12,
+  "image": "",
+  "createdAt": {
+    "$date": "2022-04-23T10:04:07.213Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-23T12:24:00.664Z"
+  },
+  "__v": 0
+}]
