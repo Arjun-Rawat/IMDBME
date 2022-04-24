@@ -7,7 +7,7 @@ node.js
 mongodb
 <!-- requremets -->
 
-RUN npm installs
+RUN npm install
 
 <!-- endpoints -->
 localhost:3000/api/v1/movie  --POST( WILl create a movie) [static data for now]
