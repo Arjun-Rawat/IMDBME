@@ -1,3 +1,5 @@
+const { json } = require("express/lib/response");
+const httpStatus = require("http-status");
 const { movieService } = require("../services");
 
 // create a movie
@@ -34,13 +36,19 @@ const fetchMovie = async (req, res) => {
 // fetch movie by id
 const fetchMovieById = async (req, res) => {
   const ID = req.params.id;
-  const result = await movieService.fetchById(ID);
-
-  res.render("single_movie", {
-    title: "View Movies",
-    movie: result,
-  });
-  // res.send(result);
+  const result = await movieService
+    .fetchById(ID)
+    .then((data) => {
+      res.render("single_movie", {
+        title: "View Movies",
+        movie: data,
+      });
+      // res.send(result);
+    })
+    .catch((err) => {
+      res.send({ error: "invaid movie id given", status: httpStatus[500] });
+      return;
+    });
 };
 
 // search movie by genre
@@ -52,7 +60,7 @@ const searchAMovie = async (req, res) => {
   res.render("search", {
     title: "Search By Gener",
     movies: result,
-    search_key : genre
+    search_key: genre,
   });
   return;
 };

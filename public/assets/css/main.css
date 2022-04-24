@@ -55,7 +55,7 @@ html{scroll-behavior:smooth}
 .copy{color:#CDCDCD;text-align:center;line-height:30px;padding-top:40px;padding-bottom:22px}
 /* footer */
 
-
+.wrapper{overflow: hidden;}
 .no_result{height: calc(50vh);display: flex; justify-content: center;align-items: center;align-content: center}
 
 /* customs */
